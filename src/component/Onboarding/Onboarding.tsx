@@ -1,27 +1,26 @@
-import { View, Text, Image, FlatList } from 'react-native';
+import { View, Animated, Image, FlatList } from 'react-native';
 import Video from 'react-native-video';
 import React, { useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { TouchableOpacity } from 'react-native';
 import onboardingcss from './onboardingcss';
+import { planetaction } from '../../store/feature/PlanetSlice';
 
-const Onboarding = (index:any) => {
+const Onboarding = ({navigation}: any) => {
   const item = useSelector((state: any) => state.Planetreducer.value)
-  const [scrollOffset, setScrollOffset] = useState(0);
+const dispatch = useDispatch()
 
-  const renederitem = (item:any) => {
-    const depth = Math.abs(scrollOffset - index * 100); // Adjust the depth based on scroll position
-    const opacity = 1 - depth / 1000;
-    const scale = 1 - depth / 500;
-
-    const itemStyle = {
-      opacity: opacity < 0 ? 0 : opacity,
-      transform: [{ scale: scale < 0.5 ? 0.5 : scale }],
-      zIndex: opacity < 0 ? -1 : 1,
+  const renederitem = (item: any) => {
+    const handlePress = () => {
+      dispatch(planetaction(item));
+      navigation.navigate('Tabbar', { screen: 'HomeScreen' })
+      console.log('saan');
+      
     };
 
+
     return (
-      <TouchableOpacity style={[onboardingcss.touc,itemStyle]}>
+      <TouchableOpacity style={[onboardingcss.touc]} onPress={()=>handlePress()}>
         <Image
           source={item.imge1}
           style={onboardingcss.img}
@@ -39,14 +38,14 @@ const Onboarding = (index:any) => {
         repeat={true}
       />
       <FlatList
+
         data={item}
         renderItem={({ item, index }) => renederitem(item)}
-        keyExtractor={(item:any) => item.id.toString()} 
-        onScroll={(event) => {
-          setScrollOffset(event.nativeEvent.contentOffset.y);
-        }}
+        keyExtractor={(item: any) => item.id.toString()}
+        style={onboardingcss.flatlist}
+        horizontal={true}
       />
-      
+
     </View>
   );
 }

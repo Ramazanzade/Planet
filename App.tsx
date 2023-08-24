@@ -5,13 +5,14 @@ import OnboardingScreen from './src/navigation/stack/OnboardingStack/OnboardingS
 import HomeScreen from './src/navigation/stack/HomeStack/HomeScreen';
 import { Provider, useDispatch, useSelector } from 'react-redux';
 import { store } from './src/store/store';
+import Tabbar from './src/navigation/Tabbar/Tabbar';
 const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>   
       <Stack.Screen name="OnboardingScreen" component={OnboardingScreen} />   
-      <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      <Stack.Screen name="Tabbar" component={Tabbar} />
       </Stack.Navigator>
     </NavigationContainer>
   );

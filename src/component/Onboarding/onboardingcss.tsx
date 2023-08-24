@@ -10,16 +10,17 @@ export default StyleSheet.create({
         zIndex: -1
     },
     img: {
-        width: 250,
-        height: 250
+    width: 300,      
+    height: 300, 
+     
     },
     touc: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         zIndex: 100
+
     },
-    flatlistItem: {
-        position: 'absolute',
-      }
+    flatlist:{
+    }
 })

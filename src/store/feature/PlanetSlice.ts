@@ -7,6 +7,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/mars.png'),
         imge2: require('../../asset/imge/marss.png'),
         video: require('../../asset/imge/marsv.mp4'),
+        video1: require('../../asset/mars/m.mp4'),
         home: {
             text1: 'Günəşə yaxınlığına görə Günəş sistemindəki üçüncü planet və həyat aşkar olunan yeganə göy cismi. Radiometrik tanışlıq və digər dəlillərə görə Yer 4,5 milyard il əvvəl yaranmışdır. ',
             text2: 'Mars planeti Yerdən təqribən iki dəfə kiçik olmaqla ona ən yaxın planetdir. Günəşin ətrafında bi dəfə dövr etmək üçün ona iki il vaxt lazımdır. Planetdə nəhəng vulkanlar və Yerdə olduğundan daha böyük, dərin vadilər var.',
@@ -14,12 +15,13 @@ const initialStateValue = [
             text4: 'Marsın iki balaca peyki var- Fobos və Deymos. Bunlardan daha böyüyü olan Fobusun eni cəmi 24 km-dir. Çox ehtimal ki, hər iki peyk Mars tərəfindən cəzb olunmuş və bu planetin ətrafında fırlanmağa başlamış asteroidlərdir.',
             text5: 'Amma 1965, 1969 və 1976-cı illərdə Marsa göndərilən zondlar heç bir kanal aşkar etmədilər. Amerika Birləşmiş Ştatlarına məxsus "Vikinq" kosmik gəmiləri planetə endilər və torpaqdan nümunə götürdülər, amma heç bir həyat əlamətinə rast gəlmədilər.',
             text6: 'Planetin Şimal və Cənub qütbləri var- onların hər ikisi qalın buz təbəqəsi ilə örtülmüşdür. Planetin nazik atmosferi demək olar ki, ancaq karbon qazından ibarətdir, buradakı güclü küləklər isə toz fırtınaları yaradır. ',
-            homeimge1: { uri: 'https://media.cnn.com/api/v1/images/stellar/prod/181115180453-01-mars-best-moments-mars-globe-valles-marineris-enhanced.jpg?q=w_2500,h_1406,x_0,y_0,c_fill' },
-            homeimge2: { uri: 'https://media.istockphoto.com/id/1300652810/photo/mars-planet-3d-render-illustration-high-detailed-surface-features.jpg?s=612x612&w=0&k=20&c=V11fm3CB2JD1nmndQRTgBK-w4NOp72DXdxiOj2b9SHk=' },
-            homeimge3: { uri: 'https://learnenglish.britishcouncil.org/sites/podcasts/files/RS8056_GettyImages-460712633-hig.jpg' },
-            homeimge4: { uri: 'https://gray-wdbj-prod.cdn.arcpublishing.com/resizer/3Y_2edvGZ43wmLZsqVkz-qQiTWw=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/VVGVSCHPIRC5NFDNKGZXFWW7MU.PNG' },
-            homeimge5: { uri: 'https://imgix.bustle.com/uploads/shutterstock/2022/8/16/45db0744-8f84-4ede-9849-18e5f96aaac9-shutterstock-2166729161.jpg?w=400&h=300&fit=crop&crop=faces&auto=format%2Ccompress' },
-            homeimge6: { uri: 'https://www.mkewithkids.com/wp-content/uploads/2022/11/planet-mars.jpg' },
+            homeimge1: require('../../asset/mars/m.png'),
+            homeimge2: require('../../asset/mars/m1.png'),
+            homeimge3: require('../../asset/mars/m2.png'),
+            homeimge4: require('../../asset/mars/m3.png'),
+            homeimge5: require('../../asset/mars/m.png'),
+            homeimge6: require('../../asset/mars/m3.png'),
+
 
         },
         peykleri: {
@@ -27,7 +29,7 @@ const initialStateValue = [
             name2:'Deymos',
             text1: 'Fobos  peyki  avqustun 17-də Amerika astronomu Asaf Hall müşahidələri nəticəsində aşkar olunmuşdur. Müşahidələr Vaşinqtonda Deniz Rəsədxanasında aparılmışdır.Guman olunur ki Fobos peyki əvvəllər asteroid olub və Marsın cazibəsi nəticəsində tutularaq öz oxu ətrafında fırlanmasına səbəb olmuşdur.',
             peykimge1: require('../../asset/imge/mars1.png'),
-            text2: '1877-ci ildə Amerika astronomu A. Holl kəşf etmişdir. İlk dəfə yaxın məsafədən şəklini 1977-ci ildə “Vikinq-1” KA çəkmişdir.Planetin mərkəzindən orta məsafəsi 23,5 min km, dolanma dövrü 30 saat 21 dəqiqədir. Deymos düzgün olmayan formaya malikdir və bəzi asteroidlərin maddəsinə oxşayan dağ süxurunun və buzun karbonla zəngin qatışığından ibarətdir. Deymosun səthi dayaz kraterlərlə doldurulmuş (iki ən böyük kraterinin diametri təqr. 2 km-dir) və reqolitlə –xırda tozlu layla ör tülmüşdür.',
+            text2: '1877-ci ildə Amerika astronomu A. Holl kəşf etmişdir. İlk dəfə yaxın məsafədən şəklini 1977-ci ildə “Vikinq-1” KA çəkmişdir.Planetin mərkəzindən orta məsafəsi 23,5 min km, dolanma dövrü 30 saat 21 dəqiqədir. Deymos düzgün olmayan formaya malikdir və bəzi asteroidlərin maddəsinə oxşayan dağ süxurunun və buzun karbonla zəngin qatışığından ibarətdir.',
             peykimge2: require('../../asset/imge/mars2.png'),
 
         }
@@ -38,6 +40,8 @@ const initialStateValue = [
         imge1: require('../../asset/imge/yer.png'),
         imge2: require('../../asset/imge/yer2.png'),
         video: require('../../asset/imge/yerv.mp4'),
+        video1: require('../../asset/yer/y.mp4'),
+
         home: {
             text1: 'Günəşə yaxınlığına görə Günəş sistemindəki üçüncü planet və həyat aşkar olunan yeganə göy cismi. Radiometrik tanışlıq və digər dəlillərə görə Yer 4,5 milyard il əvvəl yaranmışdır. ',
             text2: 'Yerin cazibə qüvvəsi kainatdakı digər cisimlərə, xüsusən də Yerin yeganə təbii peyki olan Aya və Günəşə qarşılıqlı təsir göstərir. Yer 365 gün ərzində Günəş ətrafında öz orbiti boyu hərəkət edir. Bu müddət ərzində Yer öz oxu ətrafında 365 (366) dəfə fırlanır.',
@@ -45,12 +49,12 @@ const initialStateValue = [
             text4: 'Yer tarixinin birinci milyard ilində həyat okeanlarda meydana gəldi və Yer atmosferinə və səthinə təsir göstərməyə başladı. Bu proses anaerob və daha sonra aerob orqanizmlərin çoxalmasına səbəb oldu. Bəzi geoloji dəlillər həyatın 4,1 milyard il əvvəl yaranmış ola biləcəyini göstərir. O vaxtdan bəri Yerin Günəşdən uzaqlığı, fiziki xüsusiyyətləri və geoloji tarixi həyatın təkamülünə və inkişafına təkan verdi. ',
             text5: 'Yerin xarici təbəqəsi (litosfer) milyonlarla ildir ki, səth boyunca hərəkət edən bir neçə sərt tektonik plitələyə bölünmüşdür. Yer səthinin təxminən 29 %-i qitələr və adalardan ibarət qurudur. Qalan 71 %-i isə su ilə, əsasən dünya okeanı və eyni zamanda hamısı birlikdə hidrosferi təşkil edən göllər, çaylar və digər təmiz su mənbələri ilə örtülüdür. ',
             text6: ' Bu gün Yerdəki növlərin sayı haqqında fikirlər dəyişkəndir: əksər növlər hələ də təsvir edilməmişdir. Yer kürəsində 7,7 milyarddan çox insan yaşayır və yaşamaq üçün onun biosferindən və təbii qaynaqlarından asılıdır. Siyasi baxımdan dünyada 200-ə yaxın suveren dövlət mövcuddur. ',
-            homeimge1: { uri: 'https://olke.az/file/articles/2021/09/29/1632898225_25132455_uuuu.jpg' },
-            homeimge2: { uri: 'https://ikisahil.az/photo/975x540_2/upload/2020/02/27/-94ef7214158280296997144842511066591.jpg' },
-            homeimge3: { uri: 'https://portal.azertag.az/uploads/thumbnails/5def377c2e478.jpg' },
-            homeimge4: { uri: 'https://technote.az/upload/yer-kuresi-gunes-sistemini-terk-ede-bilermi-alimler-cavab-veribler5246.jpg' },
-            homeimge5: { uri: 'https://dusunek.files.wordpress.com/2021/05/yer-kuresi.jpeg?w=1024' },
-            homeimge6: { uri: 'https://files.modern.az/articles/2022/08/09/1660021361_16599966006142157496_1000x669.jpg' },
+            homeimge1: require('../../asset/yer/y.png'),
+            homeimge2: require('../../asset/yer/y1.png'),
+            homeimge3: require('../../asset/yer/y2.png'),
+            homeimge4: require('../../asset/yer/y3.png'),
+            homeimge5: require('../../asset/yer/y.png'),
+            homeimge6: require('../../asset/yer/y3.png')
 
         },
         peykleri: {
