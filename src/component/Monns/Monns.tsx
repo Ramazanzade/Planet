@@ -10,12 +10,12 @@ const Monns = () => {
   
     return (
       <View style={{ flex: 1 }}>
-        {/* <Video
-        source={require('../../asset/imge/2.mp4')}
+        <Video
+        source={item.video1}
         resizeMode="cover"
         style={homecss.video}
         repeat={true}
-      /> */}
+      />
         <View style={homecss.view1}>
           <ScrollView horizontal={true} style={homecss.view3}>
             {item.peykleri.peykimge1 && item.peykleri.text1 && (

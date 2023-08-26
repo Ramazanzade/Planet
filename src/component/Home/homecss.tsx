@@ -50,7 +50,7 @@ export default StyleSheet.create({
         backgroundColor: 'rgba(0, 0, 0, 0.001)',
     },
     text1: {
-        color: 'green',
+        color: '#F2AB6D',
         width:'90%',
         marginTop:200,
         alignSelf:'center'

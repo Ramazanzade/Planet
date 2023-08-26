@@ -71,6 +71,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/merkuri.png'),
         imge2: require('../../asset/imge/merkuri1.png'),
         video: require('../../asset/imge/merkuriv.mp4'),
+        video1: require('../../asset/merkuri/m4.mp4'),
         home: {
             text1: ' Günəş sistemində yerləşən ən kiçik və Günəşə ən yaxın olan planet. Yer qrupu planetlərə aid olan Merkuri Günəş ətrafında ən sürətlə dövr edən planetdir və 88 günə tam bir dəfə dövr edir. Buna baxmayaraq Merkuri öz oxu ətrafında çox yavaş hərəkət edir',
             text2: '1 Merkuri günü Yerdə keçən 116 günə bərabərdir. Merkuri planetinin təbii peyki yoxdur. Planetin adı Roma mifologiyasında gəlir, ticarət və xəbər tanrısı hesab olunan Merkuridən qaynaqlanır.',
@@ -78,12 +79,13 @@ const initialStateValue = [
             text4: 'Merkuri demək olar ki, istiliyi qoruya bilməyəcək dərəcədə çox nazik atmosfer qatına sahibdir. Bu səbəbdən də gecə və gündüz əvəzlənməsi zamanı planetin səthində kəskin istilik fərqləri yaranır. Merkurinin ekvatoruna yaxın yerlərdə gündüz vaxtı istilik 427 °C-yə çatsa da, gecə vaxtı istilik −173 °C-yə qədər düşə bilir. Merkurinin qütb bölgələrində istilik həmişə −93 °C-dən aşağı olur. ',
             text5: 'Merkuri Günəş sistemi planetləri arasında ən az meyilliyə sahib olandır. Buna baxmayaraq orbiti ellips formasındadır və Günəş sisteminə daxil olan planetlər içində ən kənarmərkəzli orbitə malikdir. O, Günəş ətrafında orbit üzrə bir dəfə keçdiyi yolu ikinci dəfə keçmir. Planetin orbitinin zamanla daha da kənarmərkəzli olacağı və kənarmərkəzlilik dərəcəsinin hal hazırkı göstərici olan 0,21-dən 0,5-ə yüksələcəyi düşünülür. ',
             text6: ' Merkuri də Venera kimi Yer səmasında sübh vaxtı və axşamçağı görünür, ancaq gecə görünmür. Merkuri də Ay və Venera kimi fazalara sahibdir. Günəşə Veneradan daha yaxın olmasında baxmayaraq, üzərinə düşən Günəş işığının cəmi 10%-ni əks etdirdiyindən Veneradan daha az parlaq görünür. Günəşə yaxınlığı səbəbindən Merkurini Yerdən müşahidə etmək çətindir.  ',
-            homeimge1: { uri: 'https://portal.azertag.az/sites/default/files/Mercury2_0.jpg' },
-            homeimge2: { uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWHhLW-Chm97ON8xjiDZUPnJK2qrEjqab3wONwPSBNH-vxJh9koymFjfrfxPC0b0X11k&usqp=CAU' },
-            homeimge3: { uri: 'https://technote.az/upload/alimler-yer-kuresinde-merkuri-planetinin-parcalarini-askar-edibler2949.jpg' },
-            homeimge4: { uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/1200px-Mercury_in_color_-_Prockter07-edit1.jpg' },
-            homeimge5: { uri: 'https://t4.ftcdn.net/jpg/00/58/62/77/360_F_58627755_41W4SM6iOtIhYmYYgvjlkwmjO0PlQjaK.jpg' },
-            homeimge6: { uri: 'https://www.cleverlysmart.com/wp-content/uploads/2021/04/Mercury-planet.jpg' },
+            homeimge1:require('../../asset/merkuri/m.png'),
+            homeimge2:require('../../asset/merkuri/m1.png'),
+            homeimge3:require('../../asset/merkuri/m2.png'),
+            homeimge4:require('../../asset/merkuri/m3.png'),
+            homeimge5:require('../../asset/merkuri/m5.png'),
+            homeimge6:require('../../asset/merkuri/m2.png'),
+
 
         },
         peykleri: {
@@ -96,6 +98,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/venera.png'),
         imge2: require('../../asset/imge/venera1.png'),
         video: require('../../asset/imge/venerav.mp4'),
+        video1: require('../../asset/venera/v.mp4'),
         home: {
             text1: 'Venera, köhnəlmiş adı Zöhrə — Günəş sistemində yerləşən ikinci planet. Günəş ətrafında hərəkətini 224,7 Yer gününə başa vurur. Günəş sistemində yerləşən digər planetlərə nisbətən ən uzun öz oxu ətrafında dönmə perioduna (243 gün) sahibdir və digər planetlərdən fərqli olaraq əks istiqamətdə fırlanır. Venera təbii peykə sahib deyildir. Onun adı Roma mifologiyasındakı sevgi və gözəllik ilahəsi olan Veneradan gəlir. ',
             text2: 'Venera gecə səmasında Aydan sonra ən parlaq şəkildə görünən ikinci təbii göy cismidir və −4,6-ya çatan ulduz ölçüsü ilə kölgə yarada biləcək qədər parlaqdır və nadir hallarda aydın gündüzlərdə adi gözlə görülə bilər. Yerin orbiti daxilində dönən Venera daxili planetdir və heçvaxt Günəşdən çox uzaqlaşmır; Günəşdən maksimum bucaq uzaqlığı 47,8°-dır.',
@@ -103,12 +106,12 @@ const initialStateValue = [
             text4: 'Venera Yer tipli planetdir və bəzən Yerin bacı planeti olaraq adlandırılır. Oxşar ölçüləri, kütləsi, tərkibi və Günəşə yaxınlığı səbəbindən belədir. Digər tərəfdən Yerdən ciddi şəkildə fərqlənir. Venera Yer tipli dörd planetin 96%-i karbon dioksid olan ən sıx atmosferinə sahibdir. Planetin atmosfer təzyiqi Yerdəki atmosfer təzyiqindən 92 dəfə daha çoxdur. ',
             text5: ' Bu göstərici Yerdə suyun 900 m dərinliyində olan təzyiq göstəricisinə uyğun gəlir. Venera Günəş sisteminin ən isti planetidir. 462 °C-yə çatan səth istiliyi ilə Günəşə daha yaxın olan Merkuridən belə daha istidir. Venera səthinin birbaşa görünməsinə əngəl olan sulfat turşularının sıx bulud təbəqəsi ilə örtülmüşdür. Planetin keçmişdə su okeanlarına sahib olduğu düşünülür, ancaq istixana effektinin təsiri ilə su tədricən buxarlanmışdır. ',
             text6: ' Səmadakı ən parlaq göy cisimlərindən biri olan Venera yazılı qeydlərin olduğu dövrlərdən bu yana mədəniyyətdə mühüm yer tutmuşdur. Venera çoxlu qədim mədəniyyətdə müqəddəs ilah kimi qəbul olunmuş, şair və yazıçılara səhər ulduzu, axşam ulduzu kimi adlarla ilham qaynağı olmuşdur. Venera e.ə. II minillik kimi erkən tarixdə hərəkətləri müəyyənləşdirilən ilk planetdir ',
-            homeimge1: { uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/300px-Venus_globe.jpg' },
-            homeimge2: { uri: 'https://focus.ua/static/storage/thumbs/920x465/4/48/c7216349-3aa211617436cc69db1861a6753c2484.jpeg?v=4296_1' },
-            homeimge3: { uri: 'https://tolknews.ru/picture/38543/400x.jpg' },
-            homeimge4: { uri: 'https://www.worldatlas.com/upload/f1/22/dc/shutterstock-645382660.jpg' },
-            homeimge5: { uri: 'https://localhistories.org/wp-content/uploads/2021/04/venus-5842522_640.jpg' },
-            homeimge6: { uri: 'https://img.freepik.com/premium-photo/venus-space-background-elements-this-image-furnished-by-nasa_103740-238.jpg' },
+            homeimge1: require('../../asset/venera/v1.png'),
+            homeimge2: require('../../asset/venera/v2.png'),
+            homeimge3: require('../../asset/venera/v5.png'),
+            homeimge4: require('../../asset/venera/v4.png'),
+            homeimge5: require('../../asset/venera/v5.png'),
+            homeimge6: require('../../asset/venera/v3.png'),
 
         },
         peykleri: {
@@ -121,6 +124,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/yupiter.png'),
         imge2: require('../../asset/imge/yupiter2.png'),
         video: require('../../asset/imge/yupiterv.mp4'),
+        video1: require('../../asset/yupiter/y.mp4'),
         home: {
             text1: ' Günəş sistemində Günəşdən məsafəsinə görə beşinci, böyüklüyünə görə birinci planet. Yupiter Günəşin kütləsinin mində birinə bərabər olsa da, digər planetlərin cəmi kütləsindən 2,5 dəfə çox kütləyə malik qaz nəhəngidir. Yupiter qədim dövrlərdən etibarən astronomlara məlumdur. Adının mənşəyi Roma mifologiyasında baş tanrı hesab olunan Yupiterdən qaynaqlanır. ',
             text2: 'Yupiter əsasən Hidrogendən təşkil olunsa da, kütləsinin dörddə birini Helium təşkil edir. Yupiter digər qaz nəhəngləri kimi qayalıq səthə malik deyildir, ancaq bərk maddələrdən təşkil olunmuş nüvəyə malik olması ehtimal olunur. Öz oxu ətrafında sürətlə dövr etməsi səbəbindən planet qütblərdən basıq, ekvatordan qabarıqdır.',
@@ -128,12 +132,12 @@ const initialStateValue = [
             text4: ' Yupiter dəfələrlə kosmik cihazlar tərəfindən müşahidə olunmuşdur. Bunlardan Pioner və Voyacer yaxın uçuş missiyalarını, həmçinin Qalileo və Yuno orbit missiyalarını xüsusilə qeyd etmək olar. 2007-ci ildə Yeni üfüqlər missiyası Plutona gedən yolda sürətini artırmaq və yolunu düzəltmək üçün Yupiterin cazibə qüvvəsindən istifadə etmiş və bu zaman bir daha planeti yaxından müşahidə etmək fürsəti yaranmışdır.',
             text5: 'Yupiterə göndərilmiş sonuncu missiya olan Yuno planetin orbitinə 4 iyul 2016-cı ildə daxil olmuşdur.[14][15] Gələcəkdə Yupiterə buzla örtülmüş maye okeana sahib olan peyki Avropanı müşahidə etmək üçün yeni missiyanın təşkil olunması nəzərdə tutulub ',
             text6: 'Yupiter əsasən qaz və maye şəklində olan maddələrdən təşkil olunmuşdur. Planet ölçüsünə görə Günəş sistemində birinci yerdədir. Yupiterin ekvatorial diametri 142,984 km-ə bərabərdir. Sahib olduğu 1,326 q/sm3 sıxlığı ilə planet qaz nəhəngləri arasında ikinci yerdə olsa da, qayalıq tipli daxili planetlərdən geri qalır.',
-            homeimge1: { uri: 'https://portal.azertag.az//uploads/encyclopedia-thumbnails/5ccaa9864e972.jpg' },
-            homeimge2: { uri: 'https://cdn.axar.az/2017/04/22/yupiter.jpg' },
-            homeimge3: { uri: 'https://technote.az/upload/alimler-yupiterin-neheng-olcusunun-sebebini-teyin-edibler4259.jpg' },
-            homeimge4: { uri: 'https://t4.ftcdn.net/jpg/01/05/19/79/360_F_105197990_wrkuU72Yw8iLCICiThoWDoKlRHVAejIR.jpg' },
-            homeimge5: { uri: 'https://media.istockphoto.com/id/469673024/photo/jupiter-with-moons.jpg?s=612x612&w=0&k=20&c=IsYtGLqkxc7kjFNHH_0mvzLZXVzXlP08mGegnQ3owaI=' },
-            homeimge6: { uri: 'https://scx2.b-cdn.net/gfx/news/hires/2017/evidencethat.jpg' },
+            homeimge1:require('../../asset/yupiter/y.png'),
+            homeimge2:require('../../asset/yupiter/y1.png'),
+            homeimge3:require('../../asset/yupiter/y2.png'),
+            homeimge4:require('../../asset/yupiter/y3.png'),
+            homeimge5:require('../../asset/yupiter/y4.png'),
+            homeimge6:require('../../asset/yupiter/y2.png'),
 
         },
         peykleri: {
@@ -157,6 +161,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/saturin.png'),
         imge2: require('../../asset/imge/saturin1.png'),
         video: require('../../asset/imge/saturinv.mp4'),
+        video1: require('../../asset/saturin/s.mp4'),
         home: {
             text1: 'Saturn, köhnəlmiş adı Zühəl — Günəş sistemində Yupiterdən sonra ən böyük ikinci, Günəşdən məsafəsinə görə altıncı planet. Saturn radiusu Yerin radiusundan təqribən doqquz dəfə böyük olan qaz nəhəngidir. Saturnun sıxlığı Yerin sıxlığının səkkizdə biri qədər olsa da, həcmi Yerin həcmindən 95 dəfə çoxdur.Planetin adı Roma mifologiyasında tanrı olan Saturndan gəlir və astronomik simvolu (♄) Saturnun orağını təmsil edir.',
             text2: 'Ehtimal olunur ki, Saturnun daxili nüvəsi dəmir-nikel və qayadan (silisium və oksigen birləşmələri) təşkil olmuşdur. Bu nüvənin də metallik hidrogenlə əhatələndiyi, orta təbəqələrdə maye hidrogenlə maye heliumun yerləşdiyi və Frenkel xəttindən xaricdə qalan hissənin də qaz təbəqəsindən ibarət olduğu düşünülür',
@@ -164,12 +169,12 @@ const initialStateValue = [
             text4: 'Saturnun yuxarı atmosferi ammonyak kristallarından təşkil olunduğundan rəngi açıq sarı görünür. Metallik hidrogen təbəqəsindəki elektrik axınının planetin maqnit sahəsinin yaranmasına səbəb olduğu düşünülür. Bu axın Yerdəkinə nisbətən daha zəif olmasına baxmayaraq, planetin böyük ölçüləri səbəbindən onun maqnit momenti Yerin maqnit momentindən 580 dəfə böyükdür. ',
             text5: 'Saturnda küləyin sürəti 1800 km/saata bərabərdir ki, bu göstərici Yupiterdəkindən daha güclü, Neptundakından isə daha zəifdir. 2019-cu ilin yanvarında tədqiqatçılar Saturnun C halqası üzərində aparılan araşdırmalara əsasən bir Saturn gününün 10 saat 33 dəqiqə 38 saniyə (± 1 dəqiqə 19 saniyə) olduğunu müəyyən etmişlər.',
             text6: 'Saturn doqquzu davamlı halqa və üçü davamsız kaman formalı olmaqla buz hissəcikləri, qaya parçaları və kosmik tozdan ibarət olan diqqətçəkən halqa sisteminə sahibdir. Saturnun kəşf olunmuş 82 peyki vardır[25] ki, bunlardan 53-ü rəsmi şəkildə adlandırılmışdır. ',
-            homeimge1: { uri: 'https://im.indiatimes.in/content/2022/Apr/nasa-2W-QWAC0mzI-unsplash_624842fb797fa.jpg?w=1200&h=900&cc=1' },
-            homeimge2: { uri: 'https://dornsife.usc.edu/news/wp-content/uploads/sites/7/2023/04/story-3063-768x432.jpg' },
-            homeimge3: { uri: 'https://images.newscientist.com/wp-content/uploads/2022/09/14154454/SEI_125251382.jpg' },
-            homeimge4: { uri: 'https://img.jakpost.net/c/2019/01/18/2019_01_18_63388_1547784493._large.jpg' },
-            homeimge5: { uri: 'https://media.istockphoto.com/id/1362060571/photo/saturn-planet-with-rings-in-outer-space-among-star-dust-and-srars-titan-moon-seen-elements-of.jpg?s=612x612&w=0&k=20&c=egWKDL6RjGAeKuQD6gYksG5CSv4Qn6RA1c_g4DBeLaQ=' },
-            homeimge6: { uri: 'https://scitechdaily.com/images/Saturn-Rings-Art-Illustration.jpg' },
+            homeimge1: require('../../asset/saturin/s.png'),
+            homeimge2: require('../../asset/saturin/s1.png'),
+            homeimge3: require('../../asset/saturin/s2.png'),
+            homeimge4: require('../../asset/saturin/s3.png'),
+            homeimge5: require('../../asset/saturin/s4.png'),
+            homeimge6: require('../../asset/saturin/s2.png'),
 
         },
         peykleri: {
@@ -195,6 +200,7 @@ const initialStateValue = [
         imge1: require('../../asset/imge/uran.png'),
         imge2: require('../../asset/imge/uran2.png'),
         video: require('../../asset/imge/uranv.mp4'),
+        video1: require('../../asset/uran/u.mp4'),
         home: {
             text1: 'Günəş sisteminin yeddinci planeti olan Uran çox soyuq və küləkli planetdir. Onun orbitində müxtəlif forma və ölçülərə malik 27 peyk dövr edir. Onlardan 5-i kifayət qədər iridir.',
             text2: 'Uranın formalaşma dövrü 4.500 milyon il bundan əvvələ gedib çıxır. Planet formalaşarkən ətrafda olan qaz və tozu özünə dartmağa başlamışdır. Uran öz qonşusu Neptun kimi də o Günəşə yaxın yerdə yaranmışdır və 4 milyon il bundan əvvəl sistemin kənarlarına doğru hərəkət etmişdir. Və indi günəşdən yeddinci yerdə dayanır.',
@@ -202,12 +208,12 @@ const initialStateValue = [
             text4: 'Uran 1781-ci ildə ingilis astronomu Uilyam Qerşel tərəfindən kəşf edilib. Baxmayaraq ki o, Uranı komet və ya ulduz hesab etmişdir bu kəşf onun adına yazılmışdır. İki ildən sonra bu cism Johann Elert Bodenin müşahidələri sayəsində yeni planet kimi qəbul edilmişdir. Bu planetə adı da məhz Johann Bode vermişdir. Uran yunan əfsanələrində səma allahı adını daşıyırdı. ',
             text5: 'Uran yeganə iki planetdən biridir ki, oxu ətrafında tərsinə fırlanır.Günəş sistemimizin kənar bucaqlarındda olan Uran iki planetdən biridir. Həcmin çox hissəsi, demək olar ki 80%-dən bir az çox, sıx maye halında olan materialdan ibarətdir. Planetin nüvəsi çox kiçik daş-qayadan ibarət olan bir nüvədir. Nüvədə hərarət 4,982°C qədər qalxır. Uran diametrə görə Neptundan böyük olsa da, kütlə etibarilə ondan kiçikdir. Sıxlığına görə qaz planetləri sırasında ikinci yerdə dayanır. Bu göstəriciyə görə Saturn axırıncı yeri tutur.',
             text6: 'Uranın atmosferini ilk dəfə Voyacer 2 kosmik aparatı 1986-cı ildə müşahidə etmişdir. Ancaq sonrakı müşahidələr onu göstərir ki, Uranda hərəkətdə olan buludlar vardır. Vaxtaşırı bu buludlar rəngini dəyişir, gah parlaq olur gah da tündləşırlər. Planetin səthində ən ekstrimal hərarət –224.2°C-dir. Bu onu günəş sistemimizdə ən soyuq planet edir. Külləyin sürəti saatda 900km-ə çatır. Küləklər ekvatorda planetin oxu ətrafında fırlanmasının əksinə doğru əsirlər. Ancaq planetin qütblərində küləklər düz istiqamətdə, planetin fırlanmasıyla eyni istiqamətdə əsirlər.',
-            homeimge1: { uri: 'https://images.ctfassets.net/cnu0m8re1exe/5kMBUaBzV7Iq03C7e1ZsTZ/215894a6a88e73580d2cfe5370a88af5/shutterstock_1666194169.jpg' },
-            homeimge2: { uri: 'https://a-z-animals.com/media/2022/07/iStock-1187258342.jpg' },
-            homeimge3: { uri: 'https://img.particlenews.com/image.php?type=thumbnail_580x000&url=4MDk7j_0lHL0eJ300' },
-            homeimge4: { uri: 'https://bgr.com/wp-content/uploads/2021/10/rsz_adobestock_318700318.jpg?quality=82&strip=all&resize=1400,1400' },
-            homeimge5: { uri: 'https://cff2.earth.com/uploads/2023/05/23155447/Uranus-scaled.jpg' },
-            homeimge6: { uri: 'https://www.filosofiaesoterica.com/wp-content/uploads/2016/06/A-Few-Words-on-Uranus2-e1466669036644.jpg' },
+            homeimge1: require('../../asset/uran/u.png'),
+            homeimge2: require('../../asset/uran/u1.png'),
+            homeimge3: require('../../asset/uran/u2.png'),
+            homeimge4: require('../../asset/uran/u3.png'),
+            homeimge5: require('../../asset/uran/u4.png'),
+            homeimge6: require('../../asset/uran/u.png'),
 
         },
         peykleri: {
@@ -223,12 +229,13 @@ const initialStateValue = [
      
         }
     },
-    {
+    { 
         id: 8,
         planet: 'Neptun',
         imge1: require('../../asset/imge/neptun.png'),
         imge2: require('../../asset/imge/neptun2.png'),
         video: require('../../asset/imge/neptunv.mp4'),
+        video1: require('../../asset/neptun/n.mp4'),
         home: {
             text1: 'Neptun — Günəş sistemində səkkizinci və məlum olan ən uzaq planet. Nəhəng planetlər qrupuna daxil olan Neptun Günəş sistemində diametrinə görə dördüncü, kütləsinə görə isə üçüncü yeri tutur. Neptunun kütləsi Yerin kütləsindən 17 dəfə daha çoxdur. Bu göstərici Neptunun əkizi hesab olunan Uranda 15 dəfəyə uyğun gəlir. Neptun Günəşdən 30,1 AV uzaqlıqda (4,50×109 km) yerləşir və Günəş ətrafında hərəkətini 164,8 ilə tamamlayır. Neptun adı Roma mifologiyasından qaynaqlanır. Neptun Roma mifologiyasında dəniz tanrısı hesab olunurdu. Planetin astronomik simvolu olan ♆ işarəsi də Neptunun əlində təsvir olunan üçdişli mizraqla bağlıdır',
             text2: 'Neptunu adi gözlə görmək mümkün deyildir və Günəş sistemində varlığı riyazi hesablamalarla qabaqcadan xəbər verilərək empirik müşahidələrlə tapılan ilk planetdir. Aleksi Buvanın rəhbərliyində aparılan tədqiqatlar nəticəsində, Uranın orbitində baş verən gözlənilməz dəyişikliklərə bilinməyən planetin səbəb ola biləcəyi düşüncəsi ortaya atıldı. Neptun daha sonradan 23 sentyabr 1846-cı ildə İohann Qotfrid Qal tərəfindən Urban Leveryenin qabaqcadan xəbər verdiyi mövqenin çox yaxınlığında müşahidə olundu.',
@@ -236,12 +243,12 @@ const initialStateValue = [
             text4: ' Neptunun ən böyük peyki olan Triton planetin kəşfindən qısa müddət sonra kəşf olunsa da, qalan 14 peyk XX əsrdə kəşf olunmuşdur. Neptun Yerdən çox uzaqda yerləşməsi səbəbindən kiçik görünür və bu da onun teleskoplarla müşahidəsini çətinləşdirir. 25 avqust 1989-cu ildə Voyacer 2 kosmik gəmisi Neptunun yaxınlığından keçərək müşahidələr aparmışdır.[6] Bundan başqa Habbl teleskopu və Yerdəki böyük teleskopların uyğun optik sistemlərindən istifadə olunaraq Neptunun uzaqdan da ətraflı müşahidəsi mümkün olmuşdur.',
             text5: 'Neptunun tərkibi qaz nəhəngləri olan Yupiter və Saturndan fərqli olaraq Uranla oxşardır. Neptunun atmosferi Yupiter və Saturnda olduğu kimi əsasən Hidrogen və Helium olmaqla, Karbohidrogenlər və Azotdan təşkil olunduğu halda, nisbətən yüksək miqdarda olan Su, Ammonyak və Metan buzları ilə onlardan fərqlənir.',
             text6: ' Neptunun daxili Uran kimi buz və qayadan ibarətdir.[7] Bu fərqin olması səbəbindən, Uran və Neptun astronomlar tərəfindən buz nəhəngləri olaraq təsnif olunmuşdur.[8] Neptunun göy rəngi planetin üst qatlarında mövcud olan Metandan qaynaqlanır.',
-            homeimge1: { uri: 'data:image/jpeg;base64,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' },
-            homeimge2: { uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFV20uQSgRrf-rVSw6o2eipprn2123gPAKpcvR-PcvBiraFVEIB6SYqebPXkgV4aY3B0&usqp=CAU' },
-            homeimge3: { uri: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Neptune_with_rings.jpg' },
-            homeimge4: { uri: 'https://i.pinimg.com/originals/59/b6/4d/59b64d2abea868507b72fe84ec880ff9.jpg' },
-            homeimge5: { uri: 'https://voyager.jpl.nasa.gov/assets/images/galleries/images-voyager-took/neptune/1bg.jpg' },
-            homeimge6: { uri: 'https://images.fineartamerica.com/images-medium-large-5/1-voyager-2-image-of-neptune-nasascience-photo-library.jpg' },
+            homeimge1: require('../../asset/neptun/n.png'),
+            homeimge2: require('../../asset/neptun/n1.png'),
+            homeimge3: require('../../asset/neptun/n2.png'),
+            homeimge4: require('../../asset/neptun/n3.png'),
+            homeimge5: require('../../asset/neptun/n4.png'),
+            homeimge6: require('../../asset/neptun/n2.png'),
 
         },
         peykleri: {

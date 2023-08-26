@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <View style={{ flex: 1 }}>
       {/* <Video
-      source={require('../../asset/imge/2.mp4')}
+      source={item.video}
       resizeMode="cover"
       style={homecss.video}
       repeat={true}

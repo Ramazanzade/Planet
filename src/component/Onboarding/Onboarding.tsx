@@ -45,7 +45,6 @@ const dispatch = useDispatch()
         style={onboardingcss.flatlist}
         horizontal={true}
       />
-
     </View>
   );
 }
