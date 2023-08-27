@@ -9,12 +9,12 @@ const Planet = () => {
 
     return (
         <View style={{flex:1}}>
-            {/* <Video
-                source={item.video}
+            <Video
+                source={item.video1}
                 resizeMode="cover"
                 style={homecss.video}
                 repeat={true}
-            /> */}
+            />
         </View>
     )
 }

@@ -40,7 +40,7 @@ export default StyleSheet.create({
         width:300,
         height:400,
         borderRadius:20,
-        marginTop:240,
+        marginTop:200,
         position:'relative'
        
     },
@@ -55,5 +55,18 @@ export default StyleSheet.create({
         marginTop:200,
         alignSelf:'center'
     },
-   
+    text: {
+        padding: 10,
+        fontSize: 20,
+        color: '#ffffff',
+        paddingLeft:20
+        
+    },
+    touc: {
+        borderWidth: 2,
+        borderRadius: 20,
+        borderColor:'#7297A6',
+        width:100,
+        height:50
+    },
 })

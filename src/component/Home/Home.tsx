@@ -1,21 +1,26 @@
-import { Image, Text, View, } from 'react-native'
+import { Image, Text, View, TouchableOpacity} from 'react-native'
 import React from 'react'
 import Video from 'react-native-video';
 import homecss from './homecss';
 import { useSelector } from 'react-redux';
 import { ScrollView } from 'react-native';
 
-const Home = () => {
+const Home = ({navigation}:any) => {
   const item = useSelector((state: any) => state.Planetreducer.value)
 
   return (
     <View style={{ flex: 1 }}>
-      {/* <Video
+      <Video
       source={item.video}
       resizeMode="cover"
       style={homecss.video}
       repeat={true}
-    /> */}
+    />
+    <View style={{ alignContent:'flex-end',alignItems:'flex-end',margin:10}}>
+    <TouchableOpacity style={homecss.touc} onPress={()=>navigation.navigate('Onboarding')}>
+                <Text style={homecss.text}> Geri</Text>
+            </TouchableOpacity>
+    </View>
       <View style={homecss.view1}>
         <ScrollView horizontal={true} style={homecss.view3}>
           <View style={homecss.view4}>
