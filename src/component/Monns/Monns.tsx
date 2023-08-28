@@ -11,7 +11,7 @@ const Monns = () => {
     return (
       <View style={{ flex: 1 }}>
         <Video
-        source={item.video1}
+        source={item.video}
         resizeMode="cover"
         style={homecss.video}
         repeat={true}

@@ -236,16 +236,18 @@ const Sual = ({ navigation }: any) => {
     setTimeout(() => {
       if (questions[currentQuestionIndex].options[selectedIdx] === questions[currentQuestionIndex].correctAnswer) {
         if (currentQuestionIndex === questions.length - 1) {
-          navigation.navigate('Tabbar', { screen: 'HomeScreen' })
+          // navigation.navigate('Tabbar', { screen: 'HomeScreen' });  // Navigate to home screen when last question is answered
         } else {
           setCurrentQuestionIndex(currentQuestionIndex + 1);
         }
+      }else{
+        navigation.navigate('Tabbar', { screen: 'HomeScreen' })
+
       }
       setSelectedAnswerIndex(-1);
       setShowCorrectAnswer(false);
-      navigation.navigate('Tabbar', { screen: 'HomeScreen' })
 
-    }, 3000);
+    }, 1000);
   };
 
   const renderOptions = () => {
